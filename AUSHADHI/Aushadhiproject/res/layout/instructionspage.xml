@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	       
+	       android:layout_width="fill_parent"
+           android:layout_height="wrap_content"      
+	       android:textSize="20sp" 
+	       android:text="INSTRUCTIONS"
+	       android:textStyle="italic"
+	       android:textColor="#777777"
+	              android:layout_marginBottom="9dip"
+	      
+	       />
+	       
+	       
+	       <TextView
+	       
+	       android:layout_width="fill_parent"
+           android:layout_height="wrap_content"  
+	       android:text="1) Please enter your symptom in the edittable box displayed on the screen.Once you are done with it, click on the DONE button for the medication"
+	       android:textSize="10sp" />
+	       
+	       
+	       <TextView
+	       
+	       android:layout_width="fill_parent"
+           android:layout_height="wrap_content"  
+	        android:text="2) If you have more than one symptoms to be entered click on the NEXT button which takes you to another layout and please enter the symptom in the edditable box displayed.Once you click on the DONE button the software takes the two symptoms you have entered ,one in the present layout and the other in the previous layout and displayes  the medication required"
+	       android:textSize="10sp" />
+	       
+	       <TextView
+	       
+	       android:layout_width="fill_parent"
+           android:layout_height="wrap_content"  
+	        android:text="3) If the above mentioned symptoms persist for a longer duration then you can click on the TESTS TO BE TAKEN button to know the tests to be taken to know the disease you are suffering from beforing using the medicines and it also displays the diet to be followed"
+	       android:textSize="10sp" />
+	       
+	       <TextView
+	       
+	       android:layout_width="fill_parent"
+           android:layout_height="wrap_content"  
+	        android:text="4) Click on the BACK button to go to the previous page and Click on the EXIT button to go to the home page
+	        
+	                   READY!!!!!!!"
+	       android:textSize="10sp" />
+	       
+	       
+	       
+	       
+	       <Button android:text="READY?" 
+    android:id="@+id/button1"
+     android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      </Button>
+
+</LinearLayout>

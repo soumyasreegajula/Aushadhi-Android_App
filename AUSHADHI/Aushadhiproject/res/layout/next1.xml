@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	 xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent" android:padding="10dip"
+>
+
+<TextView
+     android:id="@+id/lblsymptom1"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"      
+     android:textSize="20sp" android:text="Symptom"
+     android:textStyle="bold"
+     android:layout_marginBottom="8dip"
+ />
+	       
+<EditText
+	  android:id="@+id/txtsymptom1"
+	  android:layout_below="@id/lblsymptom1"
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content"                    
+	  android:textSize="12sp"
+	  android:layout_marginBottom="8dip"
+/>
+	                
+<Button 
+      android:text="DONE" 
+	  android:id="@+id/btnSubmit" 
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content" 
+	  android:layout_below="@+id/txtsymptom1"
+	  android:layout_alignLeft="@+id/txtsymptom1"
+	  android:layout_alignRight="@+id/txtsymptom1">
+</Button>
+	         
+	         
+<Button 
+       android:text="NEXT" 
+	   android:id="@+id/btnNext" 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:layout_below="@+id/txtsymptom1" 
+	   android:layout_alignRight="@+id/txtsymptom1">
+</Button>
+
+	       
+<Button 
+       android:text="HOMEPAGE" 
+	   android:id="@+id/btnpage" 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:layout_below="@+id/txtsymptom1"
+	   android:layout_alignLeft="@+id/txtsymptom1">
+</Button>
+	        
+	        
+	        
+<TextView
+	      
+	   android:layout_width="fill_parent"
+  	   android:layout_height="wrap_content"      
+       android:textSize="15sp" 
+       android:text="If the symptoms persist for a longer time you are advised to undergo the following tests"
+       android:layout_below="@id/btnSubmit"
+	   android:id="@+id/lblextra"
+	   android:layout_marginBottom="8dip"
+/>           
+<Button 
+	   android:text="TESTS TO BE TAKEN" 
+	   android:id="@+id/btntreatment"
+       android:layout_below="@id/lblextra"
+	   android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content"
+></Button>
+</RelativeLayout>
+	 
+
+
+
